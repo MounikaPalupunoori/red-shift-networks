@@ -1,0 +1,23 @@
+@import "tailwindcss";
+body {
+  height: 100vh;
+  box-sizing: border-box;
+  margin: 0;
+
+}
+.login-card{
+  background: white;
+  height: max-content;
+  border-radius: 20px;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.form-wd {
+  max-width: 430px;
+  margin: 0 auto;
+}
+.progress-bar {
+  /* ... other styles for your progress bar */
+  & .indicator { /* Target the indicator element */
+    background-color: var(--progress-color);
+  }
+}
