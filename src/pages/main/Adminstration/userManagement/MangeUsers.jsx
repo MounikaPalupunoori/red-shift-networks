@@ -37,7 +37,769 @@ export default function ManageUsers() {
         networkGroup: 'All',
         logo: 'noLogo',
         type: 'All'
-    }]
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },{
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+    {
+        name: 'uma',
+        priviliges: 'Admin',
+        email: 'uma@gmail.com',
+        networkGroup: 'All',
+        logo: 'noLogo',
+        type: 'All'
+    },
+]
     const [loading, setLoading] = useState(false);
     const [isDialogOpen, setIsDialogOpen] = useState(false);
     const [selectedUser, setSelectedUser] = useState()

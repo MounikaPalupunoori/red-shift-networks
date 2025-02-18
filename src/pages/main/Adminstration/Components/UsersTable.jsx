@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useState, useEffect, useMemo, useCallback } from 'react';
 import { AgGridReact } from 'ag-grid-react';
-import { Delete, SquarePen, Trash, UserCircle } from "lucide-react";
+import { Delete, LockKeyhole, SquarePen, Trash, UserCircle } from "lucide-react";
 import SkeletonLoader from '@/components/CustomComponents/tableSkeletonLoader';
 import { calculateVisibleColumns, myTheme, setColumnVisibility } from '@/lib/agridTableTheme';
 const UserListTable = ({data, handleEditUser,handleDeleteUser }) => {
@@ -30,26 +30,31 @@ const [tableSkeletonLoader,setTableSkeletonLoader]=useState(false)
     {
       headerName: "Action",
       field: "action",
-      resizable: true,
       cellRenderer: (params) => (
-        <div className="flex items-center space-x-4">
-          <div className='text-[white]'>.</div>
+        <div className="flex justify-start items-center space-x-4">
+          <div className='text-[white]' style={{margin:'-1px'}}>.</div>
           <div
             className="border items-center border-gray-300 rounded-md p-1 cursor-pointer"
             onClick={() => handleEditUser(params.data)}
           >
             <SquarePen color="#418CFF" size={15} />
-           
           </div>
           <div
             className="border items-center border-gray-300 rounded-md p-1 cursor-pointer"
             onClick={() => handleDeleteUser(params.data)}
           >
-            <Trash color='red' size={15}/>
+            <Trash color='red' size={15} />
+          </div>
+          <div
+            className="border items-center border-gray-300 rounded-md p-1 cursor-pointer"
+            onClick={() => handleDeleteUser(params.data)}
+          >
+            <LockKeyhole color='blue' size={15} />
           </div>
         </div>
       ),
-    },
+    }
+    
 
   ]);
 
