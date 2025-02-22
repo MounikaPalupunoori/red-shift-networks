@@ -14,7 +14,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { useEffect, useState } from "react";
 import { Progress } from "@/components/ui/progress";
-import AttackLocationMap from "./Dashboard/Components/maps";
+import AttackLocationMap from "./Components/maps";
 const chartData = [
   { time: "01:00", value: 0 },
   { time: "02:00", value: 5 },
@@ -169,7 +169,7 @@ export default function Dashboard() {
         <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 gap-6">
           <Card>
             <CardHeader className='p-4 flex justify-between items-center flex-row'>
-              <CardTitle className='font-semibold'>Active Calls</CardTitle>
+              <CardTitle>Active Calls</CardTitle>
               <p className="text-2xl font-bold">150</p>
             </CardHeader>
             <CardContent>

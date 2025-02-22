@@ -153,8 +153,8 @@ export default function ManageUsers() {
             <div className='flex items-center p-4' style={{ height: '60px' }}>
                 <p className='font-bold text-2xl'>Users</p>
                 <div className='p-2 justify-end w-full flex space-x-4'>
-                    <Button tabIndex="-1" disabled={selectedData.length > 0} onClick={() => handleAddUser('userForm')}>Add User</Button>
-                    <Button tabIndex="-1" disabled={selectedData.length === 0} onClick={() => handleDeleteUser('multi')}>Delete</Button>
+                    <Button disabled={selectedData.length > 0} onClick={() => handleAddUser('userForm')}>Add User</Button>
+                    <Button  disabled={selectedData.length === 0} onClick={() => handleDeleteUser('multi')}>Delete</Button>
                     <Button disabled={selectedData.length > 0} onClick={() => handleBulkUpload()}>Bulk Upload Users</Button>
                     <Button>Help</Button>
                 </div>

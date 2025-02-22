@@ -2,7 +2,7 @@ import { createBrowserRouter } from 'react-router-dom';
 import Login from '../pages/auth/login';
 import PublicRoute from '../components/AuthRoutes/publicRoutes';
 import PrivateRoute from '../components/AuthRoutes/privateRoute';
-import Dashboard from '../pages/main/dashboard';
+import Dashboard from '../pages/main/Dashboard/dashboard';
 import DashboarLayout from '@/components/CustomComponents/DashboardLayout';
 import MangeUsers from '@/pages/main/Adminstration/userManagement/MangeUsers';
 const router = createBrowserRouter([
