@@ -121,17 +121,17 @@ const UsersTable = ({ rowData, handleEditUser, handleDeleteUser, handleChangePas
             <TableSkeletonLoader rows={8} columns={7} />
           )
         ) : (
-          <div className="h-full w-full p-2">
-            <Card className='h-full w-full'>
+          <div className="h-full w-full px-4 py-2 pb-4">
+            <Card className='h-full w-full pb-2'>
               <CardContent className='h-full w-full p-0'>
-                <div className="flex justify-between items-center h-[6%] p-2">
+                <div className="flex justify-between items-center h-[50px] p-2">
                   <SearchInput id="filter-text-box" onSearch={onFilterTextBoxChanged} />
                   <Button onClick={exportToExcel} variant='outline' className='border-primary'>
                     <Upload /><p>Export</p>
                   </Button>
 
                 </div>
-                <div style={{ height: '90%', width: '100%', padding: '0px 10px' }}>
+                <div style={{ height: 'calc(100% -  50px)', width: '100%',padding:'0px 8px' }}>
                   <div style={containerStyle}>
                     <AgGridReact
                       theme={myTheme}
