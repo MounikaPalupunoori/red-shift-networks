@@ -104,6 +104,7 @@ const data = {
       title: "Visibility",
       url: "#",
       icon: View,
+      isActive: false,
       items: [
         {
           title: "Genesis",
@@ -123,6 +124,7 @@ const data = {
       title: "Configuration",
       url: "#",
       icon: Settings2,
+      isActive: false,
       items: [
         {
           title: "Introduction",
@@ -146,6 +148,7 @@ const data = {
       title: "Report",
       url: "#",
       icon: FileText,
+      isActive: false,
       items: [
         {
           title: "General",
@@ -169,6 +172,7 @@ const data = {
       title: "Administration",
       url: "#",
       icon: UserCog,
+      isActive: false,
       items: [
         {
           title: "Manage Users",

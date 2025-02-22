@@ -7,7 +7,7 @@ import {
 } from "@/components/ui/table";
 import { Skeleton } from "@/components/ui/skeleton";
 
-const SkeletonLoader = ({ rows, columns }) => {
+const TableSkeletonLoader = ({ rows, columns }) => {
   return (
     <Table>
     <TableBody>
@@ -25,9 +25,9 @@ const SkeletonLoader = ({ rows, columns }) => {
   );
 };
   
-SkeletonLoader.propTypes = {
+TableSkeletonLoader.propTypes = {
   rows: PropTypes.number,
     columns: PropTypes.number,
 };
 
-export default SkeletonLoader;
+export default TableSkeletonLoader;

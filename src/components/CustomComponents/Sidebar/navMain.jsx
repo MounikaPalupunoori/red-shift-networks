@@ -17,20 +17,21 @@ import {
   SidebarMenuSubItem,
 } from "@/components/ui/sidebar";
 import { useEffect, useState } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
 
 export function NavMain({ items }) {
-  const [setActiveNavItem]=useState();
-  const [pathname] = useState(window.location.pathname);
+  const navigate = useNavigate();
+  const location = useLocation();
+  const [openSections, setOpenSections] = useState({});
 
   useEffect(() => {
-      const splitUrl = pathname.split('/');
-      let captilal = ''
-      captilal = splitUrl[1]?.charAt(0).toUpperCase() + splitUrl[1]?.slice(1);
-      const menuItems = ['Main Dashboard',];
-      if (menuItems.includes(captilal)) {
-          setActiveNavItem(captilal);
-      }
-  }, [pathname]);
+    const newOpenSections = {};
+    items.forEach((item) => {
+      newOpenSections[item.title] = item.items.some((subItem) => location.pathname === subItem.url);
+    });
+    setOpenSections(newOpenSections);
+  }, [location.pathname]);
+
   return (
     <SidebarGroup>
       <SidebarMenu>
@@ -38,24 +39,27 @@ export function NavMain({ items }) {
           <Collapsible
             key={item.title}
             asChild
+            open={openSections[item.title]}
+            onOpenChange={(isOpen) => setOpenSections((prev) => ({ ...prev, [item.title]: isOpen }))}
+
             className="group/collapsible"
           >
             <SidebarMenuItem>
               <CollapsibleTrigger asChild>
                 <SidebarMenuButton tooltip={item.title}>
-                  {item.icon && <item.icon className='text-white'/>}
+                  {item.icon && <item.icon className='text-white' />}
                   <span className="text-[white]">{item.title}</span>
-                  <ChevronRight className="ml-auto transition-transform duration-200 group-data-[state=open]/collapsible:rotate-90" color="white"/>
+                  <ChevronRight className="ml-auto transition-transform duration-200 group-data-[state=open]/collapsible:rotate-90" color="white" />
                 </SidebarMenuButton>
               </CollapsibleTrigger>
               <CollapsibleContent>
                 <SidebarMenuSub>
                   {item.items?.map((subItem) => (
-                    <SidebarMenuSubItem key={subItem.title} style={{ backgroundColor: pathname === subItem.url ? '#3757F7' : ''}}>
+                    <SidebarMenuSubItem key={subItem.title} style={{ backgroundColor: location.pathname === subItem.url ? '#3757F7' : '' }}>
                       <SidebarMenuSubButton asChild>
-                        <a href={subItem.url}>
+                        <p onClick={() => navigate(subItem.url)} className="cursor-pointer">
                           <span className="text-white">{subItem.title}</span>
-                        </a>
+                        </p>
                       </SidebarMenuSubButton>
                     </SidebarMenuSubItem>
                   ))}
